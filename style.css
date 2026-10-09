@@ -1,0 +1,371 @@
+@charset "UTF-8";
+
+body {
+    font-family:  "Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",sans-serif;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.5;
+    display: inline-block;
+    border-bottom: 1px solid #383E45;
+    margin: 0 0 70px 0;
+    text-align: center;
+}
+
+
+
+header {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 960px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+h1 img {
+    width: 120px;
+    display: block;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    color: #24292E;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+nav a:hover {
+    text-decoration: underline;}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.mainvisual {
+    object-fit: cover;
+    object-position: 50% 60%;
+}
+
+.mv-img {
+    width: 100%;
+    height: 600px;
+    background: url("./img/mainvisual.jpg") 50% 60% / cover no-repeat;
+}
+
+
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    margin: 0 0 100px 0;
+}
+
+.about-card {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.about-text h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+}
+
+.about-text p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.about-text {
+    text-align: left;
+    margin: 0 0 0 30px ;
+    max-width: 400px;
+    
+
+}
+
+.about img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.bicycle {
+    text-align: center;
+    margin: 0 0 110px 0;
+}
+
+.bicycle-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    justify-content: center;
+}
+
+.bicycle-card {
+    text-align: center;
+}
+
+.bicycle-card img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.bicycle-card h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 10px 0 10px 0;
+}
+
+.bicycle-card p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+}
+
+footer {
+    font-size: 8px;
+    text-align: center;
+    padding: 10px 0;
+    color: #383E45;
+}
+
+
+
+/* TAB */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+
+
+    .about {
+        padding: 50px 20px;
+        text-align: center;
+        margin: 0 0 100px 0;
+    }
+    
+    .about-card {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .about-text h3 {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.5;
+        margin: 0 0 10px 0;
+    }
+
+    .about-text p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0;
+    }
+
+    .about-text {
+        text-align: left;
+        margin: 0 0 0 30px ;
+        max-width: 100%;
+        
+
+    }
+
+    .about img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        flex-shrink: 0;
+    }
+
+
+
+    .bicycle {
+        text-align: center;
+        margin: 0 0 110px 0;
+    }
+
+    .bicycle-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+        justify-content: center;
+    }
+
+    .bicycle-card {
+        text-align: center;
+    }
+
+    .bicycle-card img {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+    }
+
+    .bicycle-card h3 {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.5;
+        margin: 10px 0 10px 0;
+    }
+
+    .bicycle-card p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0 0 10px 0;
+    }
+
+
+}
+
+
+
+
+/* SP */
+
+@media (max-width: 767px) {
+    .container {
+        margin: 0 auto;
+        padding: 0 15px;
+    }    
+
+    h2 {
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 1.5;
+        display: inline-block;
+        border-bottom: 1px solid #383E45;
+        margin: 0 0 60px 0;
+        text-align: center;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 60px;
+        margin: 0 auto;
+        padding: 10px 15px;
+        text-align: center;
+    }
+
+
+    .about {
+        padding: 50px 20px;
+        text-align: center;
+        margin: 0 0 100px 0;
+    }
+
+    .about-card {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .about-text h3 {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.5;
+    }
+
+    .about-text p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 10px 0 0 0;
+    }
+
+    .about-text {
+        text-align: left;
+        margin: 10px 0 0 0;
+        max-width: 100%;
+        
+
+    }
+
+    .about img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+
+
+
+
+    .bicycle {
+        text-align: center;
+        margin: 0 0 110px 0;
+    }
+
+    .bicycle-container {
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        gap: 18px;
+        justify-content: center;
+    }
+
+    .bicycle-card {
+        text-align: center;
+    }
+
+    .bicycle-card img {
+        width: auto;
+        height: 228px;
+        object-fit: cover;
+    }
+
+    .bicycle-card h3 {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.5;
+        margin: 10px 0 10px 0;
+    }
+
+    .bicycle-card p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0 0 30px 0;
+    }
+
+
+
+
+
+}
